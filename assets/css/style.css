@@ -22,3 +22,14 @@ header .title{
   font-size: 35px;
   text-align: center;
 }
+
+
+/* 
+MAIN 
+*/
+
+main .container{
+  background-color: black;
+}
+
+
