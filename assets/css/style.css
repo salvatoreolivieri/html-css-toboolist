@@ -1,0 +1,24 @@
+/* 
+GENERAL 
+*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-style: Arial;
+}
+
+
+/* 
+HEADER 
+*/
+
+header .logo{
+  margin: 10px 20px;
+}
+
+header .title{
+  font-size: 35px;
+  text-align: center;
+}
