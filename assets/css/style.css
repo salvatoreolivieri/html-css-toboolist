@@ -6,7 +6,7 @@ GENERAL
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-style: Arial;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -14,13 +14,18 @@ GENERAL
 HEADER 
 */
 
+header{
+  height: 100px;
+}
+
 header .logo{
   margin: 10px 20px;
+  vertical-align: auto;
 }
 
 header .title{
-  font-size: 35px;
-  text-align: center;
+  font-size: 45px;
+  vertical-align: middle;
 }
 
 
@@ -28,8 +33,62 @@ header .title{
 MAIN 
 */
 
-main .container{
-  background-color: black;
+.container{
+  background-color: #F6F8F9;
 }
 
+main .task{
+  padding: 10px 50px;
+  margin: auto;
+  margin-top: 30px;
+  width: 80%;
+  background-color: white;
+  border-radius: 5px;
+}
 
+main div{
+  margin: 10px;
+  margin-top: 30px
+}
+
+main div .add-task{
+  background-color: #47ADF1;
+  color: white;
+  width: 80px;
+  height: 35px;
+  padding: 5px;
+  border-radius: 7px;
+  font-size: 13px;
+  border-color: #47ADF1;
+  border-style: solid;
+  margin-left: 25px;
+}
+
+main div .add-section{
+  background-color: white;
+  color: grey;
+  width: 100px;
+  height: 35px;
+  padding: 5px;
+  border-radius: 7px;
+  font-size: 13px;
+  border-style: solid;
+}
+
+main div p,h2{
+  margin-bottom: 10px;
+}
+
+.status-task{
+  padding: 2px;
+  margin-right: 5px;
+  background-color: #3f90b8;
+}
+
+.status-task-cancelled{
+  color: red;
+}
+
+.status-task-done{
+color: green;
+}
