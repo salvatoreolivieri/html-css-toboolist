@@ -14,13 +14,9 @@ GENERAL
 HEADER 
 */
 
-header{
-  height: 100px;
-}
-
 header .logo{
   margin: 10px 20px;
-  vertical-align: auto;
+  vertical-align: middle;
 }
 
 header .title{
@@ -35,15 +31,23 @@ MAIN
 
 .container{
   background-color: #F6F8F9;
+  padding: 30px;
 }
 
-main .task{
-  padding: 10px 50px;
+main .task, .bottoni{
+  padding: 5px 50px;
   margin: auto;
-  margin-top: 30px;
-  width: 80%;
+  margin-top: 3px;
+  margin-bottom: px;
+  width: 70%;
   background-color: white;
   border-radius: 5px;
+}
+
+main {
+  margin: auto;
+  padding: 10px 50px;
+  background-color: white;
 }
 
 main div{
@@ -61,7 +65,6 @@ main div .add-task{
   font-size: 13px;
   border-color: #47ADF1;
   border-style: solid;
-  margin-left: 25px;
 }
 
 main div .add-section{
@@ -75,20 +78,73 @@ main div .add-section{
   border-style: solid;
 }
 
-main div p,h2{
-  margin-bottom: 10px;
+main div p, main div h2{
+  margin-bottom: 20px;
 }
 
+
+
+ul li {
+  list-style-type: none; /* Remove bullets */
+  padding-bottom: 25px; /* Remove padding */
+  font-size: 20px;
+}
+
+
+/* status task */
+
 .status-task{
-  padding: 2px;
+  padding: 5px;
+  margin-top: 2px;
   margin-right: 5px;
-  background-color: #3f90b8;
+  border-radius: 40%;
 }
 
 .status-task-cancelled{
   color: red;
+  border: 1px solid red;
+  border-radius: 50%
 }
 
 .status-task-done{
-color: green;
+  color: green;
+  border: 1px solid green;
+  border-radius: 50%
 }
+
+
+/* category */
+
+.category{
+  border-radius: 20px;
+  padding: 8px;
+  border: 1px solid;
+  color: white;
+  font-size: 14px;
+}
+
+.category-editorial{
+  background-color: #45ABEA;
+}
+
+.category-Q1-goals{
+  background-color: #9C72E4;
+}
+
+.category-recruiting{
+  background-color: #64C0A9;
+}
+
+.category-mobile{
+  background-color: #F29E32;
+}
+
+.category-website{
+  background-color: #D863A1;
+}
+
+.category-sales{
+  background-color: #B0C926;
+}
+
+

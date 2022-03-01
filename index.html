@@ -22,16 +22,17 @@
 
   <main class="container">
 
-    <section class="task">
-
-      <!-- bottoni in alto -->
-      <div class="bottoni">
+    
+    <!-- bottoni in alto -->
+    <section class="bottoni">
+      <div>
         <button class="add-task">Add Task</button>
         <button class="add-section">Add Section</button>
       </div>
+    </section>
 
-      <hr>
 
+    <section class="task">
 
       <!-- task -->
       <div class="to-do">
@@ -39,8 +40,10 @@
           <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
         </svg> New Task</h2>
 
-        <p class="task-done"> <span class="status-task-done" >&#10003</span>Quarterly Newsletter <span class="category-editorial">Editorial</span>
-        </p>
+
+        <ul>
+          <li class="task-done"> <span class="status-task status-task-done" >&#10003</span>Quarterly Newsletter <span class="category category-editorial">Editorial</span></li>
+        </ul>
 
       </div>
 
@@ -50,13 +53,20 @@
           <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
         </svg> Today</h2>
 
-        <p class="task-done"> <span class="status-task-done" >&#10003</span> Recruiting blog post <span class="category-editorial">Editorial</span></p>
 
-        <p class="task-done"> <span class="status-task-done" >&#10003</span> Mobile app luaunch <span class="category-Q1-goals">Q1 Goals</span></p>
+        <ul>
 
-        <p class="task-cancelled"> <span class="status-task-cancelled" >&#10007</span> Interview John H. <span class="category-recruiting">Recruiting</span></p>
+          <li class="task-done"><span class="status-task status-task-done" >&#10003</span> Recruiting blog post <span class="category category-editorial">Editorial</span></li>
 
-        <p class="task-done"> <span class="status-task-done" >&#10003</span>Summit update to mobile storefronts<span class="category-mobile">Mobile</span></p>
+          <li class="task-done"> <span class="status-task status-task-done" >&#10003</span> Mobile app luaunch <span class="category category-Q1-goals">Q1 Goals</span></li>
+  
+          <li class="task-cancelled"> <span class="status-task status-task-cancelled" >&#10007</span> Interview John H. <span class="category category-recruiting">Recruiting</span></li>
+  
+          <li class="task-done"> <span class="status-task status-task-done" >&#10003</span>Summit update to mobile storefronts <span class="category category-mobile">Mobile</span></li>
+
+        </ul>
+
+
 
       </div>
 
@@ -66,13 +76,19 @@
           <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
         </svg> Upcoming</h2>
 
-        <p class="task-cancelled"> <span class="status-task-cancelled" >&#10007</span> Schedule meeting with Alex</p>
 
-        <p class="task-done"> <span class="status-task-done" >&#10003</span> Homepage refresh <span class="category-website">Website</span></p>
+        <ul>
 
-        <p class="task-done"> <span class="status-task-done" >&#10003</span>Onboard new Sales team members<span class="category-sales">Sales</span></p>
+          <li class="task-cancelled"> <span class="status-task  status-task-cancelled" >&#10007</span> Schedule meeting with Alex</li>
+  
+          <li class="task-done"> <span class="status-task status-task-done" >&#10003</span> Homepage refresh <span class="category category-website">Website</span></li>
+  
+          <li class="task-done"> <span class="status-task status-task-done" >&#10003</span>Onboard new Sales team members <span class="category category-sales">Sales</span></li>
+  
+          <li class="task-done"> <span class="status-task status-task-done" >&#10003</span> Review editorial calendar <span class="category category-editorial">Editorial</span></li>
 
-        <p class="task-done"> <span class="status-task-done" >&#10003</span> Review editorial calendar <span class="category-editorial">Editorial</span></p>
+        </ul>
+
 
       </div>
 
